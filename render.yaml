@@ -7,4 +7,7 @@ services:
     startCommand: node index.js
     repo: https://github.com/Glztch/vivid-casino-proxy
     branch: main
-    nodeVersion: 22.0.0
+    buildFilter:
+      paths:
+        - package.json
+        - index.js
