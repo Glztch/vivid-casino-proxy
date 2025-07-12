@@ -7,3 +7,6 @@ services:
     startCommand: node index.js
     repo: https://github.com/Glztch/vivid-casino-proxy
     branch: main
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0
