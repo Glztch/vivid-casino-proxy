@@ -3,7 +3,7 @@ services:
     name: vivid
     env: node
     plan: free
-    buildCommand: npm install
+    buildCommand: npx npm@latest install
     startCommand: node index.js
     repo: https://github.com/Glztch/vivid-casino-proxy
     branch: main
