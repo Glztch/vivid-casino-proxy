@@ -3,10 +3,8 @@ services:
     name: vivid
     env: node
     plan: free
-    buildCommand: npx npm@latest install
+    buildCommand: npm install
     startCommand: node index.js
     repo: https://github.com/Glztch/vivid-casino-proxy
     branch: main
-    envVars:
-      - key: NODE_VERSION
-        value: 18.17.0
+    nodeVersion: 22.0.0
